@@ -53,7 +53,7 @@ const ContactUs = () => {
                 className="text-[20px] font-normal mt-3 text-[#737373]"
                 style={{ fontFamily: "Open Sans" }}
               >
-                +18886193828
+                +18889350858
               </p>
             </div>
           </div>

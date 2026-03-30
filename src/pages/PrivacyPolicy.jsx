@@ -212,7 +212,7 @@ const PrivacyPolicy = () => {
         </p>
         <div className="mt-12">
           <a
-            href="tel:+18886193828"
+            href="tel:+18889350858"
             className="text-[24px] px-[20px] py-[16px] text-[#fff] text-center bg-[#269041] rounded-[4px] font-bold"
           >
             Call Us

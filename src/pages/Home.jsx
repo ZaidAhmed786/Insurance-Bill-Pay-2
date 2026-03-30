@@ -22,16 +22,16 @@ const Home = () => {
             <strong className="text-[#fff] text-start mt-[18px]">
               Independent insurance experts helping you find the best coverage at the best price. No pressure. No hidden fees.
             </strong>
-            <div className=" flex flex-col md:flex-row justify-center items-center mt-[36px] gap-3">
+            <div className=" flex flex-col md:flex-row md:justify-start justify-center items-center mt-[36px] gap-3">
   <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Get a Free Quote
   </a>
 
   <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -118,7 +118,7 @@ const Home = () => {
             </li>
           </ul>
            <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -154,7 +154,7 @@ const Home = () => {
             </li>
           </ul>
            <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -189,7 +189,7 @@ const Home = () => {
             </li>
           </ul>
            <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -224,7 +224,7 @@ const Home = () => {
             </li>
           </ul>
           <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -259,7 +259,7 @@ const Home = () => {
             </li>
           </ul>
            <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -427,7 +427,7 @@ const Home = () => {
           </p>
           <div className="mt-10">
              <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -448,7 +448,7 @@ const Home = () => {
           </p>
           <div className="mt-10">
              <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -468,7 +468,7 @@ const Home = () => {
           </p>
           <div className="mt-10">
              <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -488,7 +488,7 @@ const Home = () => {
           </p>
           <div className="mt-10">
              <a
-    href="tel:+18886193828"
+    href="tel:+18889350858"
     className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
   >
     Speak With an Agent
@@ -497,7 +497,7 @@ const Home = () => {
         </div>
         <div className="mt-12">
           <a
-            href="tel:+18886193828"
+            href="tel:+18889350858"
             className="text-[24px] px-[20px] py-[16px] text-[#fff] text-center bg-[#269041] rounded-[4px] font-bold"
           >
             Call Us

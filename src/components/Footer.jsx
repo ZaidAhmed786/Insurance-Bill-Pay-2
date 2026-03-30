@@ -30,10 +30,10 @@ const Footer = () => {
             CONTACT
           </p>
           <a
-            href="tel:+18886193828"
+            href="tel:+18889350858"
             className="flex items-center text-[#000000] text-[1.1rem] font-[Barlow] font-normal gap-[13px] mt-4"
           >
-            <FaPhoneAlt color="#FFCB44" size={18} /> +18886193828
+            <FaPhoneAlt color="#FFCB44" size={18} /> +18889350858
           </a>
           <a
             href="mailto:info@insuranceprovidersdeal.online"

@@ -142,7 +142,7 @@ const Header = () => {
           </div>
         </div>
         <a
-          href="tel:+18886193828"
+          href="tel:+18889350858"
           style={{
             backgroundImage:
               "linear-gradient(180deg, #FFFFFF00 0%, #F29F29 100%)",
@@ -150,7 +150,7 @@ const Header = () => {
           className="flex items-center gap-1.5 text-[17px] border-[1px] font-[Roboto] bg-transparent text-[#000000] sm:py-[25px] sm:px-[50px] py-[10px] px-[20px] border-[#E2E2E2] rounded-[6px]text-center"
         >
           <FaPhoneAlt size={18} />
-          +18886193828
+          +18889350858
         </a>
       </div>
     </div>
