@@ -10,7 +10,7 @@ import Homeowner from "./pages/Homeowner";
 import Disclaimer from "./pages/Disclaimer";
 import Terms from "./pages/Trems";
 import StateForm from "./pages/Stateform";
-
+import MainImage from "./assets/aboutImage.png";
 function App() {
   return (
     <>

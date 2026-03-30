@@ -8,6 +8,7 @@ import Amica from "../assets/amica.png";
 import Geico from "../assets/geico.jpeg";
 import Farmers from "../assets/farmers.png";
 import Progressive from "../assets/progressive.jpeg";
+import MainImage from "../assets/aboutImage.png";
 
 const Home = () => {
   return (
@@ -16,31 +17,68 @@ const Home = () => {
         <div className="flex lg:w-[84%] w-[98%] h-[100%] justify-between lg:items-start items-center lg:flex-row flex-col">
           <div className="flex flex-col lg:w-[580px] w-[98%] lg:h-[66%] h-auto lg:mt-auto ms:mt-40 mt-24">
             <p className="text-[38px] font-[Roboto] leading-[40px] text-[#fff] font-semibold text-start">
-              Enhance your Financial management with our Expert billing
-              solutions.
+              Protect What Matters Most — Without Overpaying
             </p>
             <strong className="text-[#fff] text-start mt-[18px]">
-              Transform and elevate your financial landscape with the advanced
-              billing expertise of our skilled team, empowering you to navigate
-              complexities and secure a brighter, more prosperous financial
-              future.
+              Independent insurance experts helping you find the best coverage at the best price. No pressure. No hidden fees.
             </strong>
-            <div className="w-[100%] flex justify-center mt-[36px]">
-              <a
-                href="tel:+18886193828"
-                className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] font-semibold"
-              >
-                Pay with us
-              </a>
-            </div>
+            <div className=" flex flex-col md:flex-row justify-center items-center mt-[36px] gap-3">
+  <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Get a Free Quote
+  </a>
+
+  <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
+</div>
           </div>
           <div>
             <img src={HeroImage} alt="" />
           </div>
         </div>
       </div>
+         <div  className="md:px-0 px-3">
 
-      <div  className="md:px-0 px-3">
+      <div className="w-[100%] md:mb-16">
+              <div className="absolute z-[-1] w-[100%] mt-56 lg:mt-96 md:block hidden">
+                <div className="lg:w-[43.5%] w-[42%] h-[321px] lg:h-[621px] bg-[#e2f9ea] ml-auto"></div>
+              </div>
+              <div className="flex md:flex-row flex-col lg:w-[87%] w-[98%] mx-auto justify-between mt-16 lg:mt-60">
+                <div className="text-start lg:w-[580px] md:w-[440px] w-[100%]">
+                  <p
+                    className="lg:text-[60px] text-[36px] font-bold text-[#2A5238]"
+                    style={{ fontFamily: "Playfair Display" }}
+                  >
+                    Who We Are
+                  </p>
+                  <p
+                    className="lg:text-[24px] text-[16px] font-normal text-[#69796F] lg:mt-9 mt-3 leading-[2em]"
+                    style={{ fontFamily: "Open Sans" }}
+                  >
+                    We are an independent insurance agency dedicated to helping individuals, families, and businesses across the United States find the right coverage without the confusion.
+                  </p>
+                  <p
+                    className="lg:text-[24px] text-[16px] font-normal text-[#69796F] mt-6 leading-[2em]"
+                    style={{ fontFamily: "Open Sans" }}
+                  >
+                    Unlike large corporations, we work for you — not the insurance companies. That means we compare multiple carriers to get you the best rates and coverage options tailored to your needs.
+                  </p>
+                </div>
+                <div className="md:w-[42.8%] w-[70%] lg:h-[500px] md:h-[360px]   md:mt-0 mt-12 md:mx-0 mx-auto">
+                  <div className="h-[100%] md:w-auto w-[100%]">
+                    <img src={MainImage} alt="" className="w-[100%] h-[100%]" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+   
 
       <div>
         <p className="text-[14px] font-[Poppins] font-semibold text-[#000000] mt-2">
