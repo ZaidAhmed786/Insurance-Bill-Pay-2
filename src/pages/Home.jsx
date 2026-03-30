@@ -117,9 +117,12 @@ const Home = () => {
               </strong>
             </li>
           </ul>
-          <p className="text-[18px] font-[Roboto] underline font-bold">
-            Pay Your GEICO Insurance Bill Online:
-          </p>
+           <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
         </div>
 
         <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
@@ -150,9 +153,12 @@ const Home = () => {
               </strong>
             </li>
           </ul>
-          <p className="text-[18px] font-[Roboto] underline font-bold">
-            Pay Your State Farm Insurance Bill Online:
-          </p>
+           <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
         </div>
         <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
           <div className="w-[83px] h-[83px]">
@@ -182,9 +188,12 @@ const Home = () => {
               </strong>
             </li>
           </ul>
-          <p className="text-[18px] font-[Roboto] underline font-bold">
-            Pay Your Progressive Insurance Bill Online:
-          </p>
+           <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
         </div>
         <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
           <div className="w-[83px] h-[83px]">
@@ -214,9 +223,12 @@ const Home = () => {
               </strong>
             </li>
           </ul>
-          <p className="text-[18px] font-[Roboto] underline font-bold">
-            Pay Your State Farm Insurance Bill Online:
-          </p>
+          <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
         </div>
         <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
           <div className="w-[83px] h-[83px]">
@@ -246,9 +258,12 @@ const Home = () => {
               </strong>
             </li>
           </ul>
-          <p className="text-[18px] font-[Roboto] underline font-bold">
-            Pay Your 21st Century Insurance Bill Online:
-          </p>
+           <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
         </div>
       </div>
       <div className="mt-8 lg:w-[87%] w-[98%] mx-auto">
@@ -366,7 +381,7 @@ const Home = () => {
           </table>
         </div>
       </div>
-      <div className="lg:w-[87%] w-[98%] mx-auto flex md:flex-row flex-col items-center justify-between md:my-16 my-12 md:gap-0 gap-20">
+      {/* <div className="lg:w-[87%] w-[98%] mx-auto flex md:flex-row flex-col items-center justify-between md:my-16 my-12 md:gap-0 gap-20">
         <div className="md:w-[18%] w-auto hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
           <img src={Amica} alt="" className="md:w-[100%] w-[220px]" />
         </div>
@@ -379,8 +394,8 @@ const Home = () => {
         <div className="md:w-[18%] w-auto hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
           <img src={Progressive} alt="" className="md:w-[100%] w-[220px]" />
         </div>
-      </div>
-      <div className="lg:w-[87%] w-[98%] mx-auto text-start">
+      </div> */}
+      <div className="lg:w-[87%] w-[98%] mx-auto text-start mt-5">
         <div className="text-start">
           <p className="sm:text-[45px] text-[40px] font-semibold text-[#000000] font-[Rubik]">
             Additional Ways to Pay and Save 50%
@@ -411,12 +426,12 @@ const Home = () => {
             51.5% of Americans have access to plans at similar prices.
           </p>
           <div className="mt-10">
-            <a
-              href="tel:+18886193828"
-              className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FFD800] rounded-[4px] font-semibold"
-            >
-              Pay with us
-            </a>
+             <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
           </div>
         </div>
         <div className="text-start mt-6">
@@ -432,12 +447,12 @@ const Home = () => {
             connectivity.
           </p>
           <div className="mt-10">
-            <a
-              href="tel:+18886193828"
-              className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FFD800] rounded-[4px] font-semibold"
-            >
-              Pay with us
-            </a>
+             <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
           </div>
         </div>
         <div className="text-start mt-6">
@@ -452,12 +467,12 @@ const Home = () => {
             connected.
           </p>
           <div className="mt-10">
-            <a
-              href="tel:+18886193828"
-              className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FFD800] rounded-[4px] font-semibold"
-            >
-              Pay with us
-            </a>
+             <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
           </div>
         </div>
         <div className="text-start mt-6">
@@ -472,12 +487,12 @@ const Home = () => {
             infrastructure projects aimed at improving connectivity in Florida.
           </p>
           <div className="mt-10">
-            <a
-              href="tel:+18886193828"
-              className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FFD800] rounded-[4px] font-semibold"
-            >
-              Pay with us
-            </a>
+             <a
+    href="tel:+18886193828"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+  >
+    Speak With an Agent
+  </a>
           </div>
         </div>
         <div className="mt-12">
