@@ -84,183 +84,156 @@ const Home = () => {
         </p>
       </div>
       <div className="xl:w-[1150px] md:w-[95%] w-[96%] mx-auto flex flex-wrap gap-6 md:mt-7 mt-8">
-        <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
-          <div className="w-[83px] h-[83px]">
-            <img src={Insurance} alt="" />
-          </div>
-          <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
-            GEICO INSURANCE
-          </p>
-          <p className="text-[18px] font-[Poppins] text-[#000000]">
-            Connect with our billing department to pay your monthly insurance
-            bill today.
-          </p>
-          <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Pay your bill and enjoy a discount
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                No additional fees for phone payments
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Convenient insurance bill payment through our automated system
-              </strong>
-            </li>
-          </ul>
-           <a
-    href="tel:+18889350858"
-    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
-  >
-    Speak With an Agent
-  </a>
-        </div>
+  <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
+    <div className="w-[83px] h-[83px]">
+      <img src={Insurance} alt="" />
+    </div>
+    <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
+      GEICO INSURANCE
+    </p>
+    <p className="text-[18px] font-[Poppins] text-[#000000]">
+      Get in touch with our billing team to quickly handle your monthly GEICO insurance payment.
+    </p>
+    <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Make your payment and qualify for a discount
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          No service charges for phone payments
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Simple bill payment using our automated system
+        </strong>
+      </li>
+    </ul>
+    
+  </div>
 
-        <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
-          <div className="w-[83px] h-[83px]">
-            <img src={Clipboard} alt="" />
-          </div>
-          <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
-            State Farm Insurance
-          </p>
-          <p className="text-[18px] font-[Poppins] text-[#000000]">
-            Connect with our billing department to pay your monthly State Farm
-            insurance bill now.
-          </p>
-          <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Pay your bill and receive a discount
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                No extra fees for phone payments
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Easy insurance bill payment through our automated system.
-              </strong>
-            </li>
-          </ul>
-           <a
-    href="tel:+18889350858"
-    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
-  >
-    Speak With an Agent
-  </a>
-        </div>
-        <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
-          <div className="w-[83px] h-[83px]">
-            <img src={Hygiene} alt="" />
-          </div>
-          <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
-            PROGRESSIVE INSURANCE
-          </p>
-          <p className="text-[18px] font-[Poppins] text-[#000000]">
-            Contact our billing department to pay your monthly Progressive
-            insurance bill today.
-          </p>
-          <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Enjoy a discount when you pay your bill
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                No additional fees for phone payments
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Convenient bill payment through our automated system
-              </strong>
-            </li>
-          </ul>
-           <a
-    href="tel:+18889350858"
-    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
-  >
-    Speak With an Agent
-  </a>
-        </div>
-        <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
-          <div className="w-[83px] h-[83px]">
-            <img src={Shield} alt="" />
-          </div>
-          <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
-            Farmers Insurance
-          </p>
-          <p className="text-[18px] font-[Poppins] text-[#000000]">
-            Reach out to our billing department to pay your monthly Farmers
-            Insurance bill today.
-          </p>
-          <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Receive a discount when you pay your bill
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                No extra fees for phone payments
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Hassle-free bill payment with our automated system
-              </strong>
-            </li>
-          </ul>
-          <a
-    href="tel:+18889350858"
-    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
-  >
-    Speak With an Agent
-  </a>
-        </div>
-        <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
-          <div className="w-[83px] h-[83px]">
-            <img src={Insurance2} alt="" />
-          </div>
-          <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
-            21st CENTURY INSURANCE
-          </p>
-          <p className="text-[18px] font-[Poppins] text-[#000000]">
-            RContact our billing department to pay your monthly 21st Century
-            Insurance bill today.
-          </p>
-          <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Pay your bill and receive a discount
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                No extra fees for phone payments
-              </strong>
-            </li>
-            <li className="leading-[25px]">
-              <strong className="text-[#000000] text-[19px] font-[Poppins]">
-                Quick and easy bill payment through our automated system
-              </strong>
-            </li>
-          </ul>
-           <a
-    href="tel:+18889350858"
-    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
-  >
-    Speak With an Agent
-  </a>
-        </div>
-      </div>
+  <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
+    <div className="w-[83px] h-[83px]">
+      <img src={Clipboard} alt="" />
+    </div>
+    <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
+      State Farm Insurance
+    </p>
+    <p className="text-[18px] font-[Poppins] text-[#000000]">
+      Contact our billing support to manage your monthly State Farm insurance payment with ease.
+    </p>
+    <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Complete your payment and receive a discount
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          No additional cost for phone transactions
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Smooth and secure payment through our automated system
+        </strong>
+      </li>
+    </ul>
+    
+  </div>
+
+  <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
+    <div className="w-[83px] h-[83px]">
+      <img src={Hygiene} alt="" />
+    </div>
+    <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
+      PROGRESSIVE INSURANCE
+    </p>
+    <p className="text-[18px] font-[Poppins] text-[#000000]">
+      Speak with our billing department to take care of your Progressive insurance payment today.
+    </p>
+    <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Pay your bill and unlock available discounts
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Zero additional fees for phone payments
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Fast and convenient automated payment process
+        </strong>
+      </li>
+    </ul>
+    
+  </div>
+
+  <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
+    <div className="w-[83px] h-[83px]">
+      <img src={Shield} alt="" />
+    </div>
+    <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
+      Farmers Insurance
+    </p>
+    <p className="text-[18px] font-[Poppins] text-[#000000]">
+      Connect with our team to process your Farmers Insurance payment without delay.
+    </p>
+    <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Pay on time and receive a discount
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          No extra charges for phone-based payments
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Easy and reliable automated billing system
+        </strong>
+      </li>
+    </ul>
+    
+  </div>
+
+  <div className="md:w-[48%] w-[100%] flex flex-col items-start text-start md:py-[50px] md:px-[40px] py-[40px] px-[30px] rounded-[8px] bg-[#F9F9FB] hover:shadow-2xl hover:bg-[#fff] transition-all duration-300 ease-in-out">
+    <div className="w-[83px] h-[83px]">
+      <img src={Insurance2} alt="" />
+    </div>
+    <p className="text-[32px] font-semibold text-[#000000] font-[Barlow] my-[15px]">
+      21st CENTURY INSURANCE
+    </p>
+    <p className="text-[18px] font-[Poppins] text-[#000000]">
+      Reach our billing department to complete your 21st Century Insurance payment today.
+    </p>
+    <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Pay your bill and enjoy available discounts
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          No additional cost for phone payments
+        </strong>
+      </li>
+      <li className="leading-[25px]">
+        <strong className="text-[#000000] text-[19px] font-[Poppins]">
+          Quick automated system for easy payments
+        </strong>
+      </li>
+    </ul>
+    
+  </div>
+</div>
       <div className="mt-8 lg:w-[87%] w-[98%] mx-auto">
         <div className="w-[100%] flex justify-center border border-b-0 border-gray-300 py-3">
           <p className="text-[24px] font-bold">

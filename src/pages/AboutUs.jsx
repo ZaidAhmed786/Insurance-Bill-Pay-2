@@ -36,7 +36,7 @@ const AboutUs = () => {
               className="lg:text-[24px] text-[16px] font-normal text-[#69796F] lg:mt-9 mt-3 leading-[2em]"
               style={{ fontFamily: "Open Sans" }}
             >
-              Welcome to <span>insuranceprovidersdeal.com</span> , your trusted
+              Welcome to <span>getquotenow.store</span> , your trusted
               partner for managing insurance payments efficiently and securely.
               We specialize in offering seamless online payment solutions for
               some of the leading insurance providers in the United States,
@@ -67,7 +67,7 @@ const AboutUs = () => {
       </div>
       <div className="text-start lg:w-[82%] w-[98%] mx-auto">
         <p className="text-[17px] font-normal text-[#7A7A7A] font-[Roboto]">
-          At <span className="font-semibold">insuranceprovidersdeal.com</span> , we
+          At <span className="font-semibold">getquotenow.store</span> , we
           understand how important it is to stay on top of your insurance
           payments. That’s why we offer:
         </p>
@@ -99,7 +99,7 @@ const AboutUs = () => {
           support whenever you need it. With
         </p>
         <p className="text-[17px] font-normal text-[#7A7A7A] font-[Roboto]">
-          <span className="font-semibold">insuranceprovidersdeal.com</span>, you
+          <span className="font-semibold">getquotenow.store</span>, you
           can focus on what matters most — your financial well-being, knowing
           that your insurance payments are in safe hands.
         </p>
