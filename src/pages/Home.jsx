@@ -25,17 +25,12 @@ const Home = () => {
             <div className=" flex flex-col md:flex-row md:justify-start justify-center items-center mt-[36px] gap-3">
   <a
     href="tel:+18889350858"
-    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
+    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-75 font-semibold"
   >
-    Get a Free Quote
+   Call Now Get a Free Quote
   </a>
 
-  <a
-    href="tel:+18889350858"
-    className="text-[15px] py-[12px] px-[24px] text-[#fff] text-center bg-[#FA9C16] rounded-[5px] w-50 font-semibold"
-  >
-    Speak With an Agent
-  </a>
+  
 </div>
           </div>
           <div>
@@ -395,7 +390,7 @@ const Home = () => {
           <img src={Progressive} alt="" className="md:w-[100%] w-[220px]" />
         </div>
       </div> */}
-      <div className="lg:w-[87%] w-[98%] mx-auto text-start mt-5">
+      {/* <div className="lg:w-[87%] w-[98%] mx-auto text-start mt-5">
         <div className="text-start">
           <p className="sm:text-[45px] text-[40px] font-semibold text-[#000000] font-[Rubik]">
             Additional Ways to Pay and Save 50%
@@ -503,7 +498,7 @@ const Home = () => {
             Call Us
           </a>
       </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
