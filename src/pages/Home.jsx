@@ -212,22 +212,22 @@ const Home = () => {
       21st CENTURY INSURANCE
     </p>
     <p className="text-[18px] font-[Poppins] text-[#000000]">
-      Reach our billing department to complete your 21st Century Insurance payment today.
+      Contact our team for fast and reliable assistance with your 21st Century Insurance services.
     </p>
     <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Pay your bill and enjoy available discounts
+          Friendly and responsive support
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          No additional cost for phone payments
+          Help with policy questions and updates
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Quick automated system for easy payments
+          Simple and hassle-free assistance
         </strong>
       </li>
     </ul>

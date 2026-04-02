@@ -14,12 +14,12 @@ const Header = () => {
 
   return (
     <div className="flex lg:flex-row flex-col lg:w-[88%] w-[98%] mx-auto mt-[4px] md:mt-[17px] mb-[22px] lg:mt-[36px]">
-      <div className="hidden flex items-center mx-auto mt-5 w-[40%]">
+      <div className=" flex items-center mx-auto mt-5 w-[150px]">
         <img src={Logo} alt="Logo" />
       </div>
       <div className="flex items-center justify-center w-[100%] mx-auto lg:mt-0 mt-8 sm:mt-10">
-        <div className="flex md:flex hidden lg:flex-row flex-col lg:w-auto w-[45%] lg:items-start items-center">
-          <div className="w-[100%] lg:w-[170px] lg:mb-0 mb-2 lg:h-[70px] flex lg:justify-start justify-center items-center lg:mr-[66px] md:flex hidden">
+        <div className="flex md:flex  lg:flex-row flex-col lg:w-auto w-[45%] lg:items-start items-center">
+          <div className="w-[100%] lg:w-[170px] lg:mb-0 mb-2 lg:h-[70px] flex justify-start  items-center lg:mr-[66px] ">
             <img src={Logo} alt="Logo" className="lg:flex hidden" />
             {showLinks ? (
               <div
@@ -60,10 +60,10 @@ const Header = () => {
               href="/contact"
               className="py-[11px] px-[20px] text-[15px] font-[Roboto] lg:text-center text-start font-bold lg:hover:text-[#61CE70] hover:text-[#fff] lg:bg-transparent focus::bg-[#3F444B] hover:border-b-[3px] hover:border-b-[#61CE70] text-gray-500"
             >
-              Contact
+              Contact us
             </a>
          {/* Provider Dropdown */}
-      <div className="relative group lg:hover:block">
+      {/* <div className="relative group lg:hover:block">
         <div
           onClick={() => toggleDropdown("provider")}
           className="py-[11px] px-[20px] text-[15px] font-[Roboto] text-start font-bold lg:hover:text-[#61CE70] hover:text-[#fff] lg:bg-transparent focus:bg-[#3F444B] hover:border-b-[3px] hover:border-b-[#61CE70] text-gray-500 cursor-pointer"
@@ -94,10 +94,10 @@ const Header = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Policies Dropdown */}
-      <div className="relative group lg:hover:block">
+      {/* <div className="relative group lg:hover:block">
         <div
           onClick={() => toggleDropdown("policies")}
           className="py-[11px] px-[20px] text-[15px] font-[Roboto] text-start font-bold lg:hover:text-[#61CE70] hover:text-[#fff] lg:bg-transparent focus:bg-[#3F444B] hover:border-b-[3px] hover:border-b-[#61CE70] text-gray-500 cursor-pointer"
@@ -136,7 +136,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     
 
           </div>
