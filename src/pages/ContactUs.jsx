@@ -58,52 +58,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <p
-          className="text-[50px] font-bold text-[#2A5238]"
-          style={{ fontFamily: "Playfair Display" }}
-        >
-          Have Questions? Get In Touch!
-        </p>
-        <form className="w-[100%] flex flex-wrap gap-4 mt-20">
-          <input
-            type="text"
-            placeholder="First Name"
-            required
-            className="w-[99%] md:w-[48.5%] bg-[#F4FFF8] border border-[#D5EBDD] rounded-[10px] py-[40px] pl-[50px] pr-[50px] font-[Inter] text-[25px] font-normal"
-          />
-          <input
-            type="text"
-            placeholder="Last Name"
-            required
-            className="w-[99%] md:w-[48.5%] bg-[#F4FFF8] border border-[#D5EBDD] rounded-[10px] py-[40px] pl-[50px] pr-[50px] font-[Inter] text-[25px] font-normal"
-          />
-          <input
-            type="email"
-            placeholder="Email Address"
-            required
-            className="w-[99%] bg-[#F4FFF8] border border-[#D5EBDD] rounded-[10px] py-[40px] pl-[50px] pr-[50px] font-[Inter] text-[25px] font-normal"
-          />
-          <input
-            type="text"
-            placeholder="Subject"
-            required
-            className="w-[99%] bg-[#F4FFF8] border border-[#D5EBDD] rounded-[10px] py-[40px] pl-[50px] pr-[50px] font-[Inter] text-[25px] font-normal"
-          />
-          <textarea
-            name=""
-            id=""
-            placeholder="Your Message"
-            required
-            className="w-[99%] bg-[#F4FFF8] border border-[#D5EBDD] rounded-[10px] py-[40px] pl-[50px] pr-[50px] font-[Inter] text-[25px] font-normal h-[360px]"
-          ></textarea>
-          <button
-            type="submit"
-            className="w-[99%] bg-[#0E9B47] hover:bg-gray-500 text-[#fff] rounded-[10px] py-[45px] px-[20px] mt-[50px] text-[20px] font-bold cursor-pointer"
-            style={{ fontFamily: "Playfair Display" }}
-          >
-            Submit Form
-          </button>
-        </form>
+      
       </div>
     </div>
   );
