@@ -92,7 +92,7 @@ const Home = () => {
       GEICO INSURANCE
     </p>
     <p className="text-[18px] font-[Poppins] text-[#000000]">
-      Get in touch with our support team for quick and reliable assistance with your.
+      Get in touch with our support team for quick and reliable assistance.
     </p>
     <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
       <li className="leading-[25px]">
