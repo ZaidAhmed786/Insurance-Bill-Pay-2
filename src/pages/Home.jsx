@@ -92,22 +92,22 @@ const Home = () => {
       GEICO INSURANCE
     </p>
     <p className="text-[18px] font-[Poppins] text-[#000000]">
-      Get in touch with our billing team to quickly handle your monthly GEICO insurance payment.
+      Get in touch with our support team for quick and reliable assistance with your.
     </p>
     <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Make your payment and qualify for a discount
+          Friendly and responsive customer support
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          No service charges for phone payments
+         Help with policy updates and general enquiries
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Simple bill payment using our automated system
+          Fast and simple assistance whenever you need it
         </strong>
       </li>
     </ul>
@@ -122,22 +122,22 @@ const Home = () => {
       State Farm Insurance
     </p>
     <p className="text-[18px] font-[Poppins] text-[#000000]">
-      Contact our billing support to manage your monthly State Farm insurance payment with ease.
+      We’re here to help you manage your services with ease and confidence.
     </p>
     <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Complete your payment and receive a discount
+          Dedicated customer support team
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          No additional cost for phone transactions
+          Quick help with account and policy questions
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Smooth and secure payment through our automated system
+          Hassle-free service experience
         </strong>
       </li>
     </ul>
@@ -152,22 +152,22 @@ const Home = () => {
       PROGRESSIVE INSURANCE
     </p>
     <p className="text-[18px] font-[Poppins] text-[#000000]">
-      Speak with our billing department to take care of your Progressive insurance payment today.
+      Connect with our team for efficient support and guidance tailored to your insurance needs.
     </p>
     <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Pay your bill and unlock available discounts
+          Reliable assistance from experienced agents
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Zero additional fees for phone payments
+         Clear and straightforward support
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Fast and convenient automated payment process
+          Designed to make your experience simple
         </strong>
       </li>
     </ul>
@@ -182,22 +182,22 @@ const Home = () => {
       Farmers Insurance
     </p>
     <p className="text-[18px] font-[Poppins] text-[#000000]">
-      Connect with our team to process your Farmers Insurance payment without delay.
+      Speak with our team today and discover how we can support your insurance needs.
     </p>
     <ul className="list-disc pl-5 text-start w-[92%] flex flex-col gap-[16px] my-[20px]">
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Pay on time and receive a discount
+          Expert guidance and assistance
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          No extra charges for phone-based payments
+          Quick responses to your enquiries
         </strong>
       </li>
       <li className="leading-[25px]">
         <strong className="text-[#000000] text-[19px] font-[Poppins]">
-          Easy and reliable automated billing system
+          Simple and smooth customer experience
         </strong>
       </li>
     </ul>
