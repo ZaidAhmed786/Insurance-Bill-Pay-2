@@ -14,10 +14,10 @@ const Header = () => {
 
   return (
     <div className="flex lg:flex-row flex-col lg:w-[88%] w-[98%] mx-auto mt-[4px] md:mt-[17px] mb-[22px] lg:mt-[36px]">
-      <div className=" flex items-center mx-auto mt-5 w-[150px]">
+      <div className=" flex items-center lg:hidden mx-auto mt-5 w-[150px]">
         <img src={Logo} alt="Logo" />
       </div>
-      <div className="flex items-center justify-center w-[100%] mx-auto lg:mt-0 mt-8 sm:mt-10">
+      <div className="flex items-center justify-between w-[100%] mx-auto lg:mt-0 mt-8 sm:mt-10">
         <div className="flex md:flex  lg:flex-row flex-col lg:w-auto w-[45%] lg:items-start items-center">
           <div className="w-[100%] lg:w-[170px] lg:mb-0 mb-2 lg:h-[70px] flex justify-start  items-center lg:mr-[66px] ">
             <img src={Logo} alt="Logo" className="lg:flex hidden" />
