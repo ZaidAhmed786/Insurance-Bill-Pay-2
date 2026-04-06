@@ -1,28 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>insurance-providers deal</title>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18059074418"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Insurance</title>
 
-  gtag('config', 'AW-18059074418');
-</script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar bg-white py-3">
+<div class="container custom-container d-flex justify-content-between align-items-center">
+
+<div class="logo">
+<img src="https://insurances-quote.com/img/svg/logo-autoinsurance.svg" alt="logo">
+</div>
+
+<a href="tel:+18889350858" class="call-btn">
+<i class="fa-solid fa-phone"></i>
++1 (888) 935-0858
+</a>
+
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+<div class="container custom-container">
+<div class="row align-items-center">
+
+<!-- Left -->
+<div class="col-lg-6">
+<h1>
+Find the best auto 
+insurance plan 
+that fits your needs.
+</h1>
+
+<p class="subtitle">
+Simple, fast, and reliable coverage for every driver.
+</p>
+
+<a href="tel:+18889350858" class="btn hero-btn">
+Get Your Quote
+</a>
+</div>
+
+<!-- Right -->
+<div class="col-lg-6 text-center position-relative">
+<div class="hero-img">
+<img src="https://insurances-quote.com/img/webp/img-herosection@2x.webp" class="img-fluid" alt="">
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section class=" py-5">
+  <div class="container logo-section py-5">
+
+    <div class="row justify-content-center mb-4">
+      <div class="col-lg-8 text-center">
+        <p class="logo-text">
+          Find and compare personalized quotes from well-known insurance companies.
+        </p>
+      </div>
+    </div>
+
+    <div class="logo-slider">
+      <div class="logo-track">
+
+        <div class="logo-item">
+          <img src="https://insurances-quote.com/img/png/Esurance-Logo.wine_.png" class="img-fluid">
+        </div>
+
+        <div class="logo-item">
+          <img src="https://insurances-quote.com/img/png/State_Farm_logo_PNG1.png" class="img-fluid">
+        </div>
+
+        <div class="logo-item">
+          <img src="https://insurances-quote.com/img/png/Liberty_Mutual-Logo.wine_.png" class="img-fluid">
+        </div>
+
+        <div class="logo-item">
+          <img src="https://insurances-quote.com/img/png/Progressive_Corporation-Logo.wine_.png" class="img-fluid">
+        </div>
+
+        <div class="logo-item">
+          <img src="https://insurances-quote.com/img/png/The_Travelers_Companies-Logo.wine_.png" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="insurance-section py-5">
+  <div class="container">
+    <!-- Section Heading -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-9 text-center">
+        <h2 class="section-title">Go Further With Auto Insurance.</h2>
+        <p class="section-desc">
+          Discover insurance solutions designed for your peace of mind. Whether you're protecting your vehicle, passengers, or finances, we help you find coverage tailored to your needs.
+        </p>
+      </div>
+    </div>
+
+    <!-- Insurance Plans -->
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="plan-card h-100 text-center">
+          <img src="https://insurances-quote.com/img/webp/img-liablity@2x.webp" alt="Liability Coverage" class="img-fluid mb-3 card-img">
+          <h3 class="plan-title">Liability Coverage</h3>
+          <p>
+            Protect yourself and others. Liability coverage helps cover third-party injuries and property damage in case of an accident where you're at fault. Essential in almost every state.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="plan-card h-100 text-center">
+          <img src="https://insurances-quote.com/img/webp/img-collision@2x.webp" alt="Collision Coverage" class="img-fluid mb-3 card-img">
+          <h3 class="plan-title">Collision Coverage</h3>
+          <p>
+            Covers repair or replacement costs for your vehicle after accidents. Ideal for leased or financed vehicles, giving you financial protection no matter who’s at fault.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="plan-card h-100 text-center">
+          <img src="https://insurances-quote.com/img/webp/img-comprehensive@2x.webp" alt="Comprehensive Coverage" class="img-fluid mb-3 card-img">
+          <h3 class="plan-title">Comprehensive Coverage</h3>
+          <p>
+            Safeguard against theft, vandalism, fire, natural disasters, or animal damage. Comprehensive coverage ensures your car is protected beyond collisions.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="plan-card h-100 text-center">
+          <img src="https://insurances-quote.com/img/webp/img-medical@2x.webp" alt="Medical Payments Coverage" class="img-fluid mb-3 card-img">
+          <h3 class="plan-title">Medical Payments Coverage</h3>
+          <p>
+            Covers medical expenses for you and your passengers, regardless of fault. A strong option to ease financial stress after unexpected accidents.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="plan-card h-100 text-center">
+          <img src="https://insurances-quote.com/img/webp/img-personal@2x.webp" alt="Personal Injury Protection" class="img-fluid mb-3 card-img">
+          <h3 class="plan-title">Personal Injury Protection (PIP)</h3>
+          <p>
+            Go beyond medical costs. PIP can help cover lost wages, childcare, and other accident-related expenses, available in select states.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="plan-card h-100 text-center">
+          <img src="https://insurances-quote.com/img/webp/img-driver@2x.webp" alt="Driver Coverage Protection" class="img-fluid mb-3 card-img">
+          <h3 class="plan-title">Driver Coverage Protection</h3>
+          <p>
+            Protect yourself from uninsured or underinsured drivers. This coverage ensures financial safety when others on the road aren’t adequately insured.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container my-5">
+    <!-- Heading -->
+    <div class="row mb-50 justify-content-center">
+      <div class="col-md-10 text-center">
+        <h2 class="lg-font fw-700 mb-10 dark-clr">Frequently Asked Questions</h2>
+        <p>Explore our FAQs for concise answers to common auto insurance queries, simplifying your decision-making process.</p>
+      </div>
+    </div>
+
+    <!-- FAQ Items -->
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="faq-item">
+          <div class="faq-question">
+            What Does Car Insurance Cover? <span class="arrow">&#9660;</span>
+          </div>
+          <div class="faq-answer">
+            <ul>
+              <li>Depending on the coverages selected, car insurance can typically cover damage or loss to your vehicle, liability for bodily injury or property damage you may cause to others, and medical payments for injuries sustained in a covered accident.</li>
+              <li>Additionally, you may be able to add optional coverages for things like roadside assistance, rental car reimbursement, vehicle towing, and more.</li>
+              <li>However, coverage varies depending on your specific policy and insurance company.</li>
+              <li>Review your policy and speak with your insurance agent to fully understand your coverage.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            How Much Does Car Insurance Cost? <span class="arrow">&#9660;</span>
+          </div>
+          <div class="faq-answer">
+            <ul>
+              <li>The cost of auto insurance can vary widely depending on a variety of factors such as the insurance company's rates, your age, driving record, vehicle type, location, and policy type.</li>
+              <li>Additionally, the level of coverage and deductibles you choose can also affect the cost of your auto insurance.</li>
+              <li>Compare quotes from multiple insurance companies to get an idea of the cost of coverage for your specific needs.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            What is Gap Insurance For Cars? <span class="arrow">&#9660;</span>
+          </div>
+          <div class="faq-answer">
+            <ul>
+              <li>Gap insurance coverage is designed to help protect drivers who have financed or leased their vehicle.</li>
+              <li>In the event that a financed or leased vehicle is totaled or stolen, many car insurance policies will typically only cover the market value of the vehicle at the time of the incident. This amount may be less than what the driver owes on the vehicle.</li>
+              <li>Gap insurance can help cover the difference between the market value of a vehicle and the remaining amount owed on the loan or lease.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            Is Car Insurance Required By Law? <span class="arrow">&#9660;</span>
+          </div>
+          <div class="faq-answer">
+            <ul>
+              <li>Most states require some level of auto insurance coverage to be maintained, with many states requiring a minimum amount of liability coverage.</li>
+              <li>Auto insurance coverage that may be required by a state includes liability, uninsured/underinsured motorist, personal injury protection (PIP), and medical payments coverage. Be sure to check your state's requirements to ensure compliance with applicable laws.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            What is a Deductible In Car Insurance? <span class="arrow">&#9660;</span>
+          </div>
+          <div class="faq-answer">
+            <ul>
+              <li>A deductible is the amount you pay out of pocket on a covered claim before the insurance applies to cover its portion.</li>
+              <li>For example, if the covered claim amount is $2,000 and your deductible is $500, you'd pay $500 of the claim, and the insurance company would pay the remaining $1,500.</li>
+              <li>A higher deductible may result in a lower premium.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-grey py-5">
+  <div class="container my-5">
+    <!-- Heading -->
+    <div class="row mb-50 justify-content-center">
+      <div class="col-md-10 text-center">
+        <h2 class="lg-font fw-700 mb-10 dark-clr">Why Autos Insurance</h2>
+        <p>Find detailed answers to frequently asked questions about auto insurance, empowering you to make informed decisions with confidence and clarity.</p>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <!-- Accordion Left -->
+      <div class="col-md-12 col-lg-6 mbres mbres-ipad">
+        <div class="why-accordion">
+
+          <div class="why-item">
+            <div class="why-question">
+              <img src="https://insurances-quote.com/img/svg/ic-check.svg" > Compare car insurance quotes in one spot.
+              <span class="arrow">&#9660;</span>
+            </div>
+            <div class="why-answer">
+              <p>Utilizing advanced technology, we scan well-known insurance providers to match you with a great car insurance policy. Our extensive search ensures you get tailored coverage that meets your needs and budget. Say goodbye to endless comparisons – we streamline the process for you. Experience hassle-free insurance shopping with our cutting-edge platform.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-question">
+              <img src="https://insurances-quote.com/img/svg/ic-check.svg" > Making The Right Choice Easy
+              <span class="arrow">&#9660;</span>
+            </div>
+            <div class="why-answer">
+              <p>Car insurance doesn't have to be hard. With Autos Insurance, you can compare and shop your insurance options in just a few clicks. Get the right coverage for your needs quickly and efficiently.</p>
+            </div>
+          </div>
+
+          <div class="why-item">
+            <div class="why-question">
+              <img src="https://insurances-quote.com/img/svg/ic-check.svg" > Professionals On Your Side
+              <span class="arrow">&#9660;</span>
+            </div>
+            <div class="why-answer">
+              <p>Our licensed insurance agents are in your corner, supporting you at every step along the way to ensure you make confident decisions.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Image Right -->
+      <div class="col-md-12 col-lg-6 text-center-ipad">
+        <img src="https://insurances-quote.com/img/webp/img-why-insurnace@2x.webp"  alt="why-insurnace" title="why-insurnace" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <!-- Call-to-Action Section -->
+  <section>
+    <div class="container">
+      <div class="row justify-content-center contact-banner mx-1">
+        <div class="col-md-6 py-5">
+          <div class="text-white text-center">
+            <h2 class="lg-font fw-700 mb-40">
+              Through Insurances-Quote.com, you could start saving today!
+            </h2>
+            <a class="btn btn-outline" href="tel:+18889350858">
+              Call Us Now: +1 (888) 935-0858
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="bg-footer">
+    <div class="container-fluid container-xxl footerspacing">
+      <div class="row">
+
+        <!-- Logo & Contact Info -->
+        <div class="col-lg-4 col-md-6 mbres mbres-ipad">
+          <img src="https://insurances-quote.com/img/svg/logo-footer.svg" class="footer-logo mb-30" alt="company logo" title="company logo">
+          <p class="footer-text mb-20 sm-font">
+            Excessive repetition in readable content distracts and disrupts reader focus.
+          </p>
+          <div class="mb-20">
+            <a href="tel:+18889350858" class="d-flex text-decoration-none align-items-center footer-text sm-font">
+              <img src="https://insurances-quote.com/img/svg/ic-call.svg" class="me-10" alt="Call" title="Call">
+              +1 (888) 935-0858
+            </a>
+          </div>
+          <div>
+            <a href="javascript:void(0)" class="d-flex  text-decoration-none align-items-center footer-text sm-font">
+              <img src="https://insurances-quote.com/img/svg/ic-location.svg" class="me-10" alt="Location" title="Location">
+              USA
+            </a>
+          </div>
+        </div>
+
+        <!-- Empty Columns for Links (Optional) -->
+        <div class="col-lg-3 col-md-6 mbres mbres-ipad"></div>
+        <div class="col-lg-2 col-md-6 mbres"></div>
+        <div class="col-lg-2 col-md-6"></div>
+
+        <!-- Divider -->
+        <div class="col-md-12">
+          <hr class="dividercolor">
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="col-md-12">
+          <div class="d-flex flex-wrap justify-content-between flex-column">
+            <div>
+              <ul class="body-font fw-400 mb-30 ps-0 text-white d-flex flex-wrap align-items-center justify-content-center">
+                <li class="mbres me-4" style="list-style-type: none;">
+                  <a href="tel:+18889350858" class="text-decoration-none " style="color: #ccc;" >Privacy Policy</a>
+                </li>
+                <li class="mbres me-4" style="list-style-type: none;">
+                  <a href="tel:+18889350858" class="text-decoration-none " style="color: #ccc;" >Terms &amp; Conditions</a>
+                </li>
+                <li class="mbres me-4" style="list-style-type: none;">
+                  <a href="tel:+18889350858" class="text-decoration-none " style="color: #ccc;" >Do Not Sell or Share My Information</a>
+                </li>
+                <li class="mbres" style="list-style-type: none;">
+                  <a href="tel:+18889350858" class="text-decoration-none " style="color: #ccc;" >Privacy Notice</a>
+                </li>
+              </ul>
+            </div>
+            <p class="d-block footer-text mbres sm-font">
+              Copyright © 2024 insurances-quote.com - All Rights Reserved
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</footer>
+<script src="script.js"></script>
+</body>
+
+
 </html>
